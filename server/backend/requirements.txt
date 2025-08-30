@@ -1,0 +1,26 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+orjson
+starlette
+
+# Authentication dependencies
+python-jose[cryptography]
+passlib
+bcrypt==4.0.1
+python-multipart
+phonenumbers
+email-validator
+
+# Database dependencies
+sqlalchemy
+alembic
+asyncpg
+
+# Testing dependencies
+pytest
+pytest-asyncio
+httpx
+requests
